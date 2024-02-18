@@ -1,0 +1,11 @@
+select{
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    width: 200px;
+    border: 1px solid rgb(0, 90, 143);
+    border-radius: 10px;
+}
+option{
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}

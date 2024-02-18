@@ -1,0 +1,17 @@
+.react-form{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    transition: 500ms ease;
+}
+.react-form:hover{
+    box-shadow: 5px 0px 30px rgb(0, 0, 0);
+}
+.RadioGroup{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}

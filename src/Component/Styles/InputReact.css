@@ -1,0 +1,9 @@
+.input-field{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: #0084ff;
+    padding-left: 10px;
+    border-width: 1px;
+    margin: 10px;
+}

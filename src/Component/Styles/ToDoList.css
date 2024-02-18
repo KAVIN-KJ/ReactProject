@@ -1,0 +1,59 @@
+.todo{
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:  #3498db;
+    margin: 10px;
+}
+.todo:hover{
+    box-shadow: 0px 0px 20px;
+}
+.todolist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+    color: white;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 600px;
+    overflow: auto;
+        /* max-width: 400px; */
+}
+.taskName{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+.tick{
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+    height: fit-content;
+    background-color: black;
+    align-items: center;
+    border-radius: 10px;
+
+}
+#userInput{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}

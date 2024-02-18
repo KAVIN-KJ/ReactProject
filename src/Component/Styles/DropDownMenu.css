@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .dropdown{
+    width: fit-content;
+    height: 40px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+  }
+  .option{
+    transition: 250ms ease;
+    width: fit-content;
+    height: 30px;
+    min-width: 100px;
+    border: none;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    margin-top: 1px;
+    border-radius: 5px;
+  }
+  .content{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+  }
+  .container:hover .content{
+    display: flex;
+  }
+  .container button:hover{
+    background-color: rgb(124, 124, 124);
+  }
